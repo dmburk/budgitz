@@ -15,5 +15,6 @@
 /log/*.log
 /tmp
 
-# Ignore database config
+# Ignore secure configs
 /config/database.yml
+/config/deploy.rb

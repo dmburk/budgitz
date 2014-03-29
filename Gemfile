@@ -8,6 +8,11 @@ group :development do
   gem 'capistrano'
 end
 
+group :test do
+  gem 'rspec'
+  gem 'rspec-rails'
+end
+
 group :production do
   gem 'mysql2', '~> 0.3.15'
 end
